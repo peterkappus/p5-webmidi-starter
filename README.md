@@ -13,7 +13,7 @@ Together you can use these to make awesome custom visualisations from any midi s
 Clone this repo into a folder, open up the "index.html" file, play some notes on your midi keyboard. It should Just Work™. If not, you may need to check your midi setup.
 
 ## How it works?
-The brains are in the "sketch.js" There are 4 functions to know about
+The brains are in the "sketch.js" There are 2 main functions to know about
 
 `setup`
 This function runs when the sketch opens. Use this to create a canvas to draw on and do any other initialization. 
@@ -21,7 +21,6 @@ This function runs when the sketch opens. Use this to create a canvas to draw on
 `draw`
 This function gets run every time the screen refreshes. Use this to animate your objects.
 
-`Disc`
-This class contains the constructor for the "discs" and methods for drawing them and a "step" function called to modulate the radius.
+And one class called 'Disc' containing the constructor for the "discs" and methods to `draw` each disc and a `step` method called to modulate the radius.
 
 
